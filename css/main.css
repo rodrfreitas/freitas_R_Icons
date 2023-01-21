@@ -19,11 +19,25 @@ body {
 }
 
 .wrapper {
-    width: 45%;
+    width: 20%;
     display: inline-block;
-    padding: 1em;
+    padding: 3em;
+    margin: 2em;
+    background-color: rgb(245, 245, 245);
+    border: 1px rgb(192, 192, 192) solid;
+    border-radius: 15px;
 }
 
 .wrapper img {
     width: 100%;
 }
+
+#small_text {transition: all 0.5s ease; transform-origin: 50%;}
+
+#myBadge:hover #background_circle { fill: orange;}
+
+#myBadge:hover #small_text { 
+    fill: white; 
+    transform: rotate(180deg);
+} 
+

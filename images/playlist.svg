@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="playlist" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #010101;
+      }
+    </style>
+    <script>
+      // select elements you want to interact with first
+      let theBadge = document.querySelector('#playlist');
+
+      // functions always go in the middle
+      function logMyId() {
+        console.log(this.id);
+      }
+
+      // event handling at the botton
+      theBadge.addEventListener('click', logMyId);
+
+    </script>
+  </defs>
+  <path class="cls-1" d="m696.17,471.55H103.83c-18.05,0-32.68-14.63-32.68-32.68h0c0-18.05,14.63-32.68,32.68-32.68h592.34c18.05,0,32.68,14.63,32.68,32.68h0c0,18.05-14.63,32.68-32.68,32.68Zm32.68-190.75v-10.67c0-15.1-12.24-27.34-27.34-27.34h-405.76c-15.1,0-27.34,12.24-27.34,27.34v10.67c0,15.1,12.24,27.34,27.34,27.34h405.76c15.1,0,27.34-12.24,27.34-27.34Zm0,321.47h0c0-18.05-14.63-32.68-32.68-32.68H103.83c-18.05,0-32.68,14.63-32.68,32.68h0c0,18.05,14.63,32.68,32.68,32.68h592.34c18.05,0,32.68-14.63,32.68-32.68ZM71.15,175.78v199.38s172.67-99.69,172.67-99.69l-172.67-99.69Z"/>
+</svg>
