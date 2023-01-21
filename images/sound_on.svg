@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="sound_on" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #010101;
+      }
+    </style>
+     <script>
+      // select elements you want to interact with first
+      let theBadge = document.querySelector('#sound_on');
+
+      // functions always go in the middle
+      function logMyId() {
+        console.log(this.id);
+      }
+
+      // event handling at the botton
+      theBadge.addEventListener('click', logMyId);
+
+    </script>
+  </defs>
+  <path class="cls-1" d="m378.83,506.52h-170.79v-213.04h170.79v213.04Zm213.04-213.04h-213.04v213.04h213.04v-213.04Z"/>
+  <path class="cls-1" d="m338.4,293.48l253.55,146.39V147.09l-253.55,146.39Zm0,213.04l253.55,146.39v-292.78l-253.55,146.39Z"/>
+</svg>

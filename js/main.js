@@ -14,14 +14,8 @@ between JS and the DOM (the elements)
 */
 
 // step 1 - make the connection to the elements you want to interact with
-const jpgGraphic = document.querySelector('#bitmap');
-const vectorGraphic = document.querySelector('#vector');
 
-// Function Print on console
-function logID() {
-    console.log('clicked on this element', this.id);
-}
 
 // step 2 - decide how you want the user to interact with the object you created in step 1
-jpgGraphic.addEventListener('click', logID);
-vectorGraphic.addEventListener('click', logID);
+
+// Console Log script is inside of each SVG file

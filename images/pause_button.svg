@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="pause_button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #010101;
+      }
+    </style>
+    <script>
+      // select elements you want to interact with first
+      let theBadge = document.querySelector('#pause_button');
+
+      // functions always go in the middle
+      function logMyId() {
+        console.log(this.id);
+      }
+
+      // event handling at the botton
+      theBadge.addEventListener('click', logMyId);
+
+    </script>
+  </defs>
+  <path class="cls-1" d="m400,17.17C188.57,17.17,17.17,188.57,17.17,400s171.4,382.83,382.83,382.83,382.83-171.4,382.83-382.83S611.43,17.17,400,17.17Zm-69.45,617.21h-61.28V175.83h61.28v458.55Zm189.96,0h-61.28V175.83h61.28v458.55Z"/>
+</svg>

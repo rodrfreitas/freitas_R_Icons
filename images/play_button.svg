@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="play_button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #010101;
+      }
+    </style>
+    <script>
+      // select elements you want to interact with first
+      let theBadge = document.querySelector('#play_button');
+
+      // functions always go in the middle
+      function logMyId() {
+        console.log(this.id);
+      }
+
+      // event handling at the botton
+      theBadge.addEventListener('click', logMyId);
+
+    </script>
+  </defs>
+  <path id="play_button-2" data-name="play_button" class="cls-1" d="m400,17.17C188.57,17.17,17.17,188.57,17.17,400s171.4,382.83,382.83,382.83,382.83-171.4,382.83-382.83S611.43,17.17,400,17.17Zm-104.19,580.05V202.78l341.46,197.22-341.46,197.22Z"/>
+</svg>
