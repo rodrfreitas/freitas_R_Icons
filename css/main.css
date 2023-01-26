@@ -32,6 +32,10 @@ body {
     width: 100%;
 }
 
+.svg-hover:hover, .svg-hover:focus {
+  filter: invert(50%) sepia(73%) saturate(1706%) hue-rotate(215deg) brightness(101%) contrast(101%);
+}
+
 #small_text {transition: all 0.5s ease; transform-origin: 50%;}
 
 #myBadge:hover #background_circle { fill: orange;}
